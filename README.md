@@ -12,11 +12,41 @@ Proyek ini bertujuan untuk melakukan klasifikasi bungkus biskuit menggunakan mod
 
 ---
 
-## Model dan Library yang Digunakan
+## Arsitektur Model
 
-### Model yang Dipilih:
-1. **Convolutional Neural Network (CNN)**
-2. **MobileNet**
+### 1. **Convolutional Neural Network (CNN)**
+- CNN adalah model deep learning konvensional untuk klasifikasi gambar.
+- CNN dalam proyek ini terdiri dari beberapa lapisan convolutional, pooling, dan fully connected.
+
+### 2. **MobileNet**
+- MobileNet adalah model lightweight yang dirancang untuk perangkat dengan sumber daya terbatas.
+- Model ini menggunakan depthwise separable convolutions untuk mengurangi kompleksitas komputasi.
+
+## Evaluasi Model
+
+### Metode Evaluasi
+Kedua model dievaluasi menggunakan metrik berikut:
+- **Precision**
+- **Recall**
+- **F1-Score**
+- **Accuracy**
+
+### Hasil Evaluasi
+#### CNN
+![Hasil Evaluasi CNN](./CNN.png)
+
+#### MobileNet
+![Hasil Evaluasi MobileNet](./MN.png)
+
+### Ringkasan Perbandingan
+| Model       | Precision | Recall | F1-Score | Accuracy |
+|-------------|-----------|--------|----------|----------|
+| **CNN**     | 0.98      | 0.97   | 0.98     | 0.98     |
+| **MobileNet** | 0.99      | 0.99   | 0.99     | 0.99     |
+
+## Kesimpulan
+- MobileNet memiliki performa lebih baik dibandingkan CNN dalam semua metrik evaluasi.
+- MobileNet cocok digunakan untuk deployment di perangkat dengan sumber daya terbatas berkat efisiensi komputasinya.
 
 ### Library yang Digunakan:
 - **TensorFlow**: Untuk pembuatan dan pelatihan model deep learning.
