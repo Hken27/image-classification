@@ -71,11 +71,11 @@ Ikuti langkah-langkah berikut untuk meng-clone dan menjalankan proyek ini:
 
 1. Clone repository ini:
    ```bash
-   git clone <URL_REPOSITORY>
+   git clone https://github.com/Hken27/image-classification
    ```
 2. Masuk ke direktori proyek:
    ```bash
-   cd <NAMA_FOLDER_PROYEK>
+   cd PRAK_UAP
    ```
 3. Install PDM jika belum terinstall:
    ```bash
@@ -112,9 +112,9 @@ Berikut adalah hasil demo dari model klasifikasi bungkus biskuit:
 ![Demo Hasil 1](Screenshot%202024-12-26%20120309.png)
 
 ### Prediksi Citra 2
-![Demo Hasil 2](Screenshot%202024-12-26%20120422.png)
+![Demo Hasil 2](Screenshot%202024-12-26%20120508.png)
 
 ### Prediksi Citra 3
-![Demo Hasil 3](Screenshot%202024-12-26%20120508.png)
+![Demo Hasil 3](Screenshot%202024-12-26%20120422.png)
 
-Citra di atas menunjukkan hasil prediksi dari model yang telah dilatih.
+Citra di atas menunjukkan hasil prediksi dari training model yang telah dilatih.
